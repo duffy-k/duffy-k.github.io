@@ -1,0 +1,99 @@
+/*typeography*/
+h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 72pt;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Helvetica';
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+body {
+    font-family: ‘Helvetica’, ‘Arial’, sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+nav a {
+    color: #cdcdcd;
+    text-decoration: none;
+    font-size: 18pt;
+    font-family: 'helvetica';
+    margin-right: 10px;
+
+}
+
+footer {
+    font-family: 'helvetica';
+    font-size: 10pt;
+}
+
+#foodarticles {}
+
+#container {
+    background-color: #cdcdcd;
+}
+
+/*backgrounds*/
+
+background-color: black;
+height: 200px;
+
+/*box models */
+
+#splash {
+    height: 400px;
+}
+
+.floatleft {
+    float: left;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+article {
+    margin-bottom: 100px;
+}
+
+nav,
+footer,
+#foodarticles {
+    padding: 25px;
+}
+
+article {
+    margin-bottom: 100px;
+}
+
+
+/*layout*/
+
+
+#container {
+    display: grid;
+    display: flex;
+    width: 1000px;
+    margin: auto;
+}
+
+
+
+footer {
+    text-align: center;
+    font-style: oblique;
+    z-index: 100;
+}
+
+#ad {
+    position: fixed;
+    padding-left: 50px;
+    width: 400px;
+
+    background-color: #ff0000;
+    right: 0px;
+    bottom: 0px;
+}
