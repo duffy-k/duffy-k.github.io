@@ -1,0 +1,43 @@
+   <script>
+       let myseaImage;
+       let myseaImage2;
+       let backgroundImg;
+       let altbackground = false;
+
+       function preload() {
+
+
+           myseaImage = loadImage("https://raw.githubusercontent.com/duffy-k/duffy-k.github.io/master/undersea1.png");
+           //             myseaImage2 = loadImage('img/undersea1.png');
+       }
+
+
+       function setup() {
+           createCanvas(1000, 1000);
+           background("blue");
+
+           Image(myseaImage, 0, 0);
+
+       }
+
+       function draw() {
+           background('blue');
+           image(backgroundImg, 0, 0);
+
+       }
+
+
+       function mousePressed() {
+
+           if (altbackground === true) {
+               altbackground = false;
+               backgroundImg = myseaImage2;
+           } else {
+               altbackground = true;
+               backgroundImg = myseaImage;
+           }
+
+
+       }
+
+   </script>
